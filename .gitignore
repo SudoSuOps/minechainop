@@ -1,0 +1,20 @@
+# Python / Ansible
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Terraform / Helm
+.terraform/
+*.tfstate*
+**/tmp/
+
+# Kubernetes credentials / secrets
+kubeconfig*
+*.secret
+secrets/
+
+# System / editor files
+.DS_Store
+*.swp
+Thumbs.db
